@@ -1,0 +1,28 @@
+section {
+    display: -webkit-flex ;
+    display: flex;
+    background-color: #d8ae5f;
+    height: 100vh ;
+    
+  }
+
+  nav {
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    background: linear-gradient(rgb(93, 93, 146), rgb(136, 10, 27));
+    padding: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  article {
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    background: radial-gradient(rgb(184, 120, 170),rgb(128, 165, 214));
+    padding: 10px;
+    text-align: center
+ 
+  }
